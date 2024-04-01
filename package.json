@@ -1,0 +1,12 @@
+{
+  "name": "30-javascript-questions-for-interview",
+  "version": "1.0.0",
+  "description": "1. Implemente uma função que serializa um valor Javascript em uma cadeia de caracteres JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
