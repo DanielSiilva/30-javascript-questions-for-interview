@@ -3,17 +3,22 @@
 // A cópia profunda é um processo que cria uma nova instância de um objeto, copiando não apenas as propriedades e valores do objeto original, mas também duplicando todas as referências de objetos aninhados, garantindo que duas estruturas de objeto não compartilhem referências de seus objetos internos. Vamos analisar a função deepCopy parte por parte:
 
 function deepCopy(obj, map = new WeakMap()) {
+  // Isso é necessário porque tipos primitivos (como números, strings e booleans) e null não são objetos e não precisam ser copiados profundamente.
   if (obj == null || typeof obj !== "object") {
     return obj;
   }
 
+  //verifica se o objeto já foi visitado durante a cópia (isso é verificado pelo map.has(obj)). Se já foi visitado, a função retorna a cópia desse objeto do WeakMap para evitar referências circulares e duplicação infinita.
   if (map.has(obj)) {
     return map.get(obj);
   }
 
   const result = Array.isArray(obj) ? [] : {};
+
+  //O objeto original (obj) é adicionado ao WeakMap com sua cópia (result) como valor. Isso é feito para manter um registro de todos os objetos que já foram copiados.
   map.set(obj, result);
 
+  //A função itera sobre todas as propriedades do objeto original (Object.keys(obj)) e copia cada propriedade para o novo objeto (result). Para cada propriedade, a função é chamada recursivamente (deepCopy(obj[key], map)), garantindo que todas as propriedades de objetos aninhados também sejam copiadas profundamente.
   for (const key of Object.keys(obj)) {
     result[key] = deepCopy(obj[key], map);
   }
