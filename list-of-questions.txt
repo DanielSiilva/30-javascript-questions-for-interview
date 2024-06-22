@@ -1,0 +1,67 @@
+função que serializa um valor Javascript em uma cadeia de caracteres JSON.
+
+Implemente uma função que execute uma cópia profunda de um valor, mas também manipule referências circulares.
+
+Implemente uma função que determine se dois valores são profundos iguais.
+
+Implemente o comportamento de funcionalidade do Promise.any.
+
+Implemente o comportamento de funcionalidade do Promise.allSettled.
+
+Implemente uma função que retorna uma versão memorizada de uma função que aceita um único argumento.
+
+Implemente uma função que desserializa uma cadeia de caracteres JSON em um valor Javascript.
+
+Implemente uma classe que possa assinar e emitir eventos que acionam funções de retorno de chamada anexadas.
+
+Implemente uma função de devolução que vem com um método cancel para cancelar chamadas atrasadas.
+
+Implemente uma função que nivela recursivamente uma matriz em um único nível de profundidade.
+
+Implemente uma função promisify que permita que a função original substitua o valor de retorno.
+
+Implementar uma função para executar N tarefas assíncronas em série.
+
+Implemente uma função para executar N tarefas assíncronas em paralelo.
+
+Implementar uma função para executar N tarefas assíncronas na corrida.
+
+Implemente uma função de tubo que encadeia N número de funções.
+
+Implementar indexação negativa no Array usando Proxies.
+
+Implemente o método Lodash _.get que obtém valor do caminho.
+
+Implemente sua versão personalizada do método de chamada que define o contexto "este".
+
+Implemente a limitação de promessas que limita as solicitações de API ao limite máximo.
+
+Implemente memorização ou armazenamento em cache de solicitações de API idênticas.
+
+Implemente uma função curried com suporte a espaços reservados.
+
+Implementar uma versão personalizada de polyfill do Object.assign.
+
+Implemente o Virtual DOM I personalizado que serializa os dados em objetos Javascript válidos.
+
+Implemente o Virtual DOM II personalizado que desserializa os dados.
+
+Implemente uma memória de função polyfill personalizada da biblioteca Lodash.
+
+Implemente um Tokenizador de String personalizado.
+
+Implemente uma função personalizada _.chunk() que fragmenta as matrizes da Biblioteca Lodash.
+
+Implemente os polyfills para a chamada, aplique, vincule métodos do zero.
+
+Implemente uma função de aceleração que vem com um método cancel para cancelar chamadas atrasadas.
+
+Escreva um polyfill personalizado para o operador typeof que retorna o tipo correto para o valor Javascript.
+
+
+
+https://chat.openai.com/share/7fdc2f6a-2373-4bf5-a93b-3e7c57a33eda
+
+
+
+
